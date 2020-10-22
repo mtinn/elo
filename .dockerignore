@@ -1,0 +1,9 @@
+.dockerignore
+.env
+.git*
+.circleci/
+chart/
+Dockerfile
+docker-compose*.yml
+gcp-key.json
+node_modules/
