@@ -6,26 +6,5 @@ services:
     environment:
       - NODE_ENV=development
       - LDB_ENV=development
-      - ASSETS_URL
-      - GM_API_KEY
-      - SPID_BASE_URL=https://identity-pre.schibsted.com
-      - SPID_CLIENT_ID
-      - SPID_CLIENT_SECRET
-      - SPID_EDIT_PROFILE_URL=https://identity-pre.schibsted.com/account/settings
-      - OAUTH_CLIENT_ID
-      - OAUTH_CLIENT_SECRET
-      - SENTRY_ENVIRONMENT=dev
-      - SENTRY_DSN
-      - SENTRY_PUBLIC_DSN
-      - ZENDESK_HOST
-      - LDB_MARKET=SE
-      - GTM_ID
-      - KLARNA_MERCHANT_ID
-      - MARKET_DETECTOR_ENDPOINT=https://test.bagheera.letsdeal.com/api/markets
-      - APP_STORE_ID
-      - GOOGLE_PLAY_ID
-      - FACEBOOK_APP_ID
-      - LOG_LEVEL
-      - LOG_IGNORE_HEADERS
     ports:
       - "3000:3000"
